@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package fecha;
 
 import java.util.Scanner;
@@ -20,6 +16,8 @@ public class Fecha {
 public Fecha(){
 
 }
+
+
 
   public Fecha(int dia, int mes, int anyo) {
         this.dia = dia;
