@@ -24,6 +24,7 @@ public Fecha(){
         this.mes = mes;
         this.anyo = anyo;
     }
+  
 
     public int getDia() {
         return dia;
@@ -60,6 +61,7 @@ public Fecha(){
         System.out.println("Dame un año valido");
         Scanner sc = new Scanner(System.in);
         anyo = sc.nextInt();
+        System.out.println("el mejor");
 
         System.out.println("Dame un mes valido");
         Scanner sc1 = new Scanner(System.in);
